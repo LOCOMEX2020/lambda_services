@@ -1,0 +1,14 @@
+{
+  "body": {
+    "zipcode": "0055",
+    "environment": "dev",
+    "supplier_state": "NY",
+    "supplier_naics": [
+      "4721579",
+      "0009349",
+      "0021440",
+      "0043896",
+      "0058484"
+    ]
+  }
+}
