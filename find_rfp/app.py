@@ -91,6 +91,7 @@ def get_rfp_by_id(environment, event, context):
         latitude = float(lat_lon.split(',')[0])
         longitude = float(lat_lon.split(',')[1])
         # let's get distance 100 miles to degrees
+        #test Daniel
         # 1 degree = 69 miles
         # 100 miles = 1.449275362318841 degrees
         # distance = 1.449275362318841
