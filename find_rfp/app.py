@@ -191,7 +191,7 @@ def lambda_handler(event, context):
     if sort != '':
         df = df.sort_values(by=[sort], ascending=False)
     # let's get first 25 rows
-    df = df.head(25)
+    # df = df.head(25)
     # let's convert due_date and end_date to string
     df['due_date'] = df['due_date'].astype(str)
     df['end_date'] = df['end_date'].astype(str)
